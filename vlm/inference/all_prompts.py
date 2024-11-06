@@ -1,32 +1,32 @@
 PROMPTS_MULTI = {
     "en": [
-        "Answer if this meme is hate or not with a single alphabet letter among given answer choices a and b.",
-        "Given a meme from online, answer if it is 'Hate Speech' or 'Non-Hate Speech'. Answer with only one single alphabet between 'a' and 'b', with no other description.",
-        "Would you consider this meme as a hate speech? Give an answer in a single alphabet only."
+        "\n\nAnswer if this meme is hate or not with a single alphabet letter among given answer choices a and b.",
+        "\n\nGiven a meme from online, answer if it is 'Hate Speech' or 'Non-Hate Speech'. Answer with only one single alphabet between 'a' and 'b', with no other description.",
+        "\n\nWould you consider this meme as a hate speech? Give an answer in a single alphabet only."
     ],
 
     "de": [
-        "Beantworte, ob dieses Meme Hass oder nicht ist, mit einem einzelnen Buchstaben der vorgegebenen Antwortmöglichkeiten a und b.",
-        "Anhand eines Memes aus dem Internet, beantworte ob es sich um eine „Hassrede“ oder eine „Nicht-Hassrede“ handelt. Antworten Sie mit nur einem Buchstaben zwischen „a“ und „b“ und ohne weitere Beschreibung.",
-        "Würdest du dieses Meme als Hassrede betrachten? Gebe deine Antwort nur in einem Buchstaben an.",
+        "\n\nBeantworte, ob dieses Meme Hass oder nicht ist, mit einem einzelnen Buchstaben der vorgegebenen Antwortmöglichkeiten a und b.",
+        "\n\nAnhand eines Memes aus dem Internet, beantworte ob es sich um eine „Hassrede“ oder eine „Nicht-Hassrede“ handelt. Antworten Sie mit nur einem Buchstaben zwischen „a“ und „b“ und ohne weitere Beschreibung.",
+        "\n\nWürdest du dieses Meme als Hassrede betrachten? Gebe deine Antwort nur in einem Buchstaben an.",
     ],
 
     "es": [
-        "Responda si este meme es odio o no con una sola letra del alfabeto entre las opciones de respuesta a y b.",
-        "Dado un meme de Internet, responda si es un 'discurso de odio' o 'discurso sin odio'. Responda con una sola letra entre 'a' y 'b', sin ninguna otra descripción.",
-        "¿Considerarías este meme como un discurso de odio? Responde con una sola letra del alfabeto.",
+        "\n\nResponda si este meme es odio o no con una sola letra del alfabeto entre las opciones de respuesta a y b.",
+        "\n\nDado un meme de Internet, responda si es un 'discurso de odio' o 'discurso sin odio'. Responda con una sola letra entre 'a' y 'b', sin ninguna otra descripción.",
+        "\n\n¿Considerarías este meme como un discurso de odio? Responde con una sola letra del alfabeto.",
     ],
 
     "hi": [
-        "दिए गए उत्तर विकल्पों क और ख में से किसी एक अक्षर से बताइए कि यह मीम घृणास्पद भाषण है या नहीं।",
-        "ऑनलाइन से दिए गए किसी मेमे से, उत्तर दें कि यह 'घृणास्पद भाषण' है या 'गैर-घृणास्पद भाषण' है। 'क' और 'ख' के बीच केवल एक ही अक्षर से उत्तर दें, कोई अन्य विवरण न दें।",
-        "क्या आप इस मीम को  'घृणास्पद भाषण' मानेंगे? इसका जवाब सिर्फ़ एक अक्षर में दीजिए।",
+        "\n\nदिए गए उत्तर विकल्पों क और ख में से किसी एक अक्षर से बताइए कि यह मीम घृणास्पद भाषण है या नहीं।",
+        "\n\nऑनलाइन से दिए गए किसी मेमे से, उत्तर दें कि यह 'घृणास्पद भाषण' है या 'गैर-घृणास्पद भाषण' है। 'क' और 'ख' के बीच केवल एक ही अक्षर से उत्तर दें, कोई अन्य विवरण न दें।",
+        "\n\nक्या आप इस मीम को  'घृणास्पद भाषण' मानेंगे? इसका जवाब सिर्फ़ एक अक्षर में दीजिए।",
     ],
 
     "zh": [
-        "请判断该表情包是否包含仇恨，根据选项用字母a或b作答",
-        "根据网图判断其是否为仇恨言论。用字母a或b作答，请勿在答案中输入其他文本",
-        "您是否认为该表情包属于仇恨言论？请用单个字母给出答案",
+        "\n\n请判断该表情包是否包含仇恨，根据选项用字母a或b作答",
+        "\n\n根据网图判断其是否为仇恨言论。用字母a或b作答，请勿在答案中输入其他文本",
+        "\n\n您是否认为该表情包属于仇恨言论？请用单个字母给出答案",
     ]
 }
 
