@@ -1,41 +1,50 @@
+# Multi3Hate: Multimodal, Multilingual, and Multicultural Hate Speech Detection with Vision–Language Models
 
-# Dataset and Model Inference Guide
 
-### Dataset Structure
-- The dataset is located in the `data/` folder:
-  - `data/memes/` contains meme images, organized into subfolders by language.
-  - `data/final_annotations.csv` holds the aggregated annotations.
-  - `data/raw_annotations.csv` contains detailed annotations for each annotator.
+**Multi3Hate** dataset repository, introduced in our paper:
 
-### Running VLM Inference
-1. **Install Dependencies**  
-   First, install the required packages by running:
+> **Multi3Hate: Advancing Multimodal, Multilingual, and Multicultural Hate Speech Detection with Vision–Language Models**
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+This repository contains all the resources and code used in the paper.
 
-2. **Model Inference**  
-   To run inference with Vision-Language Models (VLMs), use the scripts provided in `vlm/inference/`. Here are the commands for each model:
+## 🗂️ Dataset Structure
+The dataset is organized in the `data/` folder:
 
-   ```bash
-   python vlm/inference/llava_onevision.py
-   python vlm/inference/internvl2.py
-   python vlm/inference/qwen2.py
-   python vlm/inference/gpt_4o.py
-   python vlm/inference/gemini_pro.py
-   ```
+- **Images**: `data/memes/` - Meme images categorized by language in subfolders.
+- **Annotations**:
+  - `data/final_annotations.csv` - Aggregated annotations.
+  - `data/raw_annotations.csv` - Annotations by individual annotators.
 
-   **Note:**
-   - For closed-source models, you will need to provide an API key.
-   - For `internvl`, ensure you have the correct version of the `transformers` library installed:
+## 🚀 Running VLM Inference
 
-     ```bash
-     pip install transformers==4.37.2
-     ```
+### 1. Install Dependencies
+To get started, install the required dependencies:
 
-### Model Evaluation
-To evaluate model predictions, run the following command, replacing `<folder>` with the path to your model predictions:
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Model Inference
+Use the scripts in `vlm/inference/` to run inference with Vision-Language Models (VLMs). Below are commands for each available model:
+
+```bash
+python vlm/inference/llava_onevision.py
+python vlm/inference/internvl2.py
+python vlm/inference/qwen2.py
+python vlm/inference/gpt_4o.py
+python vlm/inference/gemini_pro.py
+```
+
+> **Important Notes**:
+> - For closed-source models, provide a valid API key.
+> - Ensure you have the correct version of `transformers` installed for `internvl`:
+>   ```bash
+>   pip install transformers==4.37.2
+>   ```
+
+## 📈 Model Evaluation
+
+To evaluate model predictions, use this command, replacing `<folder>` with the path to your model's prediction folder:
 
 ```bash
 python vlm/evaluation/eval --model_predictions <folder>
