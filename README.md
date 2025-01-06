@@ -1,5 +1,7 @@
 # Multi3Hate: Multimodal, Multilingual, and Multicultural Hate Speech Detection with Vision–Language Models
 
+## We published Multi3Hate on Huggingface! Check it out [here](https://huggingface.co/datasets/MinhDucBui/Multi3Hate).
+
 
 **Multi3Hate** dataset repository, introduced in our paper:
 
